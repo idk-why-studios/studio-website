@@ -1,6 +1,6 @@
 <script lang="ts">
 	import '../app.css';
-	export let data;
+	export const data = undefined;
 	let studioTitle = "idk why studios";
 </script>
 
