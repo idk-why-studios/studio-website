@@ -1,6 +1,13 @@
 <script>
     import {goto} from "$app/navigation";
+    let studioTitle = "idkwhystudios"
 </script>
+
+<svelte:head>
+    <title>
+        {studioTitle}
+    </title>
+</svelte:head>
 
 <section id="home" class="flex flex-col items-center justify-center text-center px-4 py-20">
     <div>

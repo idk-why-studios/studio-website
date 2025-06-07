@@ -1,5 +1,5 @@
 <script>
-	import {base} from "$app/paths";
+	let studioTitle = "idkwhystudios"
 	const cofounders = [
 		{ name: 'Catalyst', img: '/catalyst.jpg', team: 'Lead Programmer', url: "https://github.com/AmalBiju0104"},
 		{ name: 'Modkavartini', img: '/modka.jpg' , team: 'Lead Artist', url: "https://github.com/modkavartini"},
@@ -8,10 +8,16 @@
 	];
 </script>
 
+<svelte:head>
+    <title>
+        About | {studioTitle}
+    </title>
+</svelte:head>
+
 <section class="max-w-4xl mx-auto px-4 py-16 text-white">
 	<h2 class="text-3xl font-bold mb-4">Who Are We?</h2>
 	<p class="text-lg leading-relaxed mb-12">
-		We are a passionate team of developers, designers, and storytellers building unique gamess that make you feel something. Our studio thrives on creativity, weird ideas, and late-night coding sessions fueled by caffeine and memes.
+		We are a passionate team of developers, designers, and storytellers building unique games that make you feel something. Our studio thrives on creativity, weird ideas, and late-night coding sessions fueled by caffeine and memes.
 	</p>
 
 	<h3 class="text-2xl font-semibold mb-6">Meet the Founders</h3>
