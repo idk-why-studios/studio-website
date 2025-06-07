@@ -15,8 +15,8 @@
             </a>
             <nav class="flex flex-col sm:flex-row sm:gap-6 gap-2 text-white font-medium items-center text-sm sm:text-base">
                 <a href="/about" class="hover:text-gray-400 transition-colors">About</a>
-                <a href="#devblog" class="hover:text-gray-400 transition-colors">Dev Blog</a>
-                <a href="#games" class="hover:text-gray-400 transition-colors">Showcase</a>
+                <a href="/devblog" class="hover:text-gray-400 transition-colors">Dev Blog</a>
+                <a href="/games" class="hover:text-gray-400 transition-colors">Showcase</a>
             </nav>
 
         </div>
