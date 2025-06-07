@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = "build"  # SvelteKit's default output dir
+
+[build.environment]
+  NODE_VERSION = "20"  # Match your local Node version
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
