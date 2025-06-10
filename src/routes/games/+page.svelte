@@ -4,16 +4,16 @@
 		{ name: 'Catalyst', img: '/catalyst.jpg', team: 'Lead Programmer', url: "https://github.com/AmalBiju0104"},
 		{ name: 'Modkavartini', img: '/modka.jpg' , team: 'Lead Artist', url: "https://github.com/modkavartini"},
 		{ name: 'RBJ', img: '/rbj.png', team: 'Lead Composer', url: "https://github.com/R-B-J"},
-		{ name: 'Swassy', img: '/swassy.png', team: 'Game Director', url: "https://github.com/Swassyman"}
+		{ name: 'Swassy', img: '/swassy.png', team: 'Game Director', url: "https://github.com/Swassyman"},
+		{ name: 'MrValmeeki', img: '/mrvalmeeki.jpg', team: 'Lead QA', url: "https://github.com/MrValmeeki"}
 	];
 </script>
 
 <svelte:head>
     <title>
-        Games | {studioTitle}
+        About | {studioTitle}
     </title>
 </svelte:head>
-
 
 <section class="max-w-4xl mx-auto px-4 py-16 text-white">
 	<h2 class="text-3xl font-bold mb-4">Who Are We?</h2>
@@ -22,7 +22,7 @@
 	</p>
 
 	<h3 class="text-2xl font-semibold mb-6">Meet the Founders</h3>
-	<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+	<div class="grid grid-cols-1 md:grid-cols-5 gap-8">
 		{#each cofounders as { name, img, team, url}}
         <a href={url}>
             <div class="flex flex-col items-center text-center bg-black">
