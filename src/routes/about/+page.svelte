@@ -2,10 +2,10 @@
 	let studioTitle = "idkwhystudios"
 	const cofounders = [
 		{ name: 'Catalyst', img: '/catalyst.jpg', team: 'Lead Programmer', url: "https://github.com/AmalBiju0104"},
-		{ name: 'Modkavartini', img: '/modka.jpg' , team: 'Lead Artist', url: "https://github.com/modkavartini"},
+		{ name: 'modkavartini', img: 'https://api.lanyard.rest/944986926400811008.jpg' , team: 'Lead Artist', url: "https://github.com/modkavartini"},
 		{ name: 'RBJ', img: '/rbj.png', team: 'Lead Composer', url: "https://github.com/R-B-J"},
 		{ name: 'Swassy', img: '/swassy.png', team: 'Game Director', url: "https://github.com/Swassyman"},
-		{ name: 'MrValmeeki', img: '/mrvalmeeki.jpg', team: 'Lead QA', url: "https://github.com/MrValmeeki"}
+		{ name: 'MrValmeeki', img: 'https://api.lanyard.rest/1251792950439186511.jpg', team: 'Lead QA', url: "https://github.com/MrValmeeki"}
 	];
 </script>
 

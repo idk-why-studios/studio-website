@@ -8,8 +8,8 @@
     <header class="bg-black shadow-md shadow-white-700 border-b">
         <div class="container mx-auto p-6 flex justify-between items-center">
             <a href="/">
-                <div class="flex items-center gap-4">
-                    <img class="w-10 h-10" src="/idkwhy.jpg" alt="studio logo" />
+                <div class="flex items-center gap-4 stroke-white">
+                    <!-- <img class="w-50 h-50" src="/logo.png" alt="studio logo" /> -->
                     <h1 class="font-bold text-xl">{studioTitle}</h1>
                 </div>
             </a>
