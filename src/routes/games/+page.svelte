@@ -25,7 +25,7 @@
 					<!-- Card Details -->
 					<h2 class="text-xl font-semibold text-white">{projectName}</h2>
 					<p class="text-gray-300 text-sm mt-2">{projectDesc}</p>
-					<a href="/games/game1" class="inline-block mt-4 text-white p-2">Play</a>
+					<a href="/about" class="inline-block mt-4 text-white p-2">Play</a>
 				</div>
 			</div>
 		{/each}
