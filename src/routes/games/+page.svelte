@@ -1,11 +1,12 @@
 <script>
+	import { projects } from "./projects"
+	
 	let studioTitle = "idkwhystudios"
-	const cofounders = [
-		{ name: 'Catalyst', img: '/catalyst.jpg', team: 'Lead Programmer', url: "https://github.com/AmalBiju0104"},
-		{ name: 'RBJ', img: '/rbj.png', team: 'Lead Composer', url: "https://github.com/R-B-J"},
-		{ name: 'Swassy', img: '/swassy.png', team: 'Game Director', url: "https://github.com/Swassyman"},
-	];
 </script>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jersey+10&display=swap');
+</style>
 
 <svelte:head>
     <title>
@@ -13,22 +14,21 @@
     </title>
 </svelte:head>
 
-<section class="max-w-4xl mx-auto px-4 py-16 text-white">
-	<h2 class="text-3xl font-bold mb-4">Who Are We?</h2>
-	<p class="text-lg leading-relaxed mb-12">
-		We are a passionate team of developers, designers, and storytellers building unique games that make you feel something. Our studio thrives on creativity, weird ideas, and late-night coding sessions fueled by caffeine and memes.
-	</p>
-
-	<h3 class="text-2xl font-semibold mb-6">Meet the Founders</h3>
-	<div class="grid grid-cols-1 md:grid-cols-5 gap-8">
-		{#each cofounders as { name, img, team, url}}
-        <a href={url}>
-            <div class="flex flex-col items-center text-center bg-black">
-				<img src={img} alt={name} class="w-28 h-28 rounded-full object-center border border-white" />
-				<p class="mt-4 font-medium">{name}</p>
-                <p class="italic mt-2 font-light">{team}</p>
+<section class="max-w-4x1 mx-auto px-4 py-16 text-white">
+	<!-- Card Container -->
+	<div class="grid grid-cols-1 md:grid-cols-3 gap-6 p-6 ">
+		{#each projects as {projectName, projectImage, projectDesc, updateDate, fontClass} }
+		<!-- Card -->
+			<div class="bg-black rounded-2xl border-1 border-white overflow-hidden hover:scale-103 transition-transform">
+				 <img src={projectImage} alt={projectName} class="w-full h-96 object-cover">
+				<div class="p-4 {fontClass}">
+					<!-- Card Details -->
+					<h2 class="text-xl font-semibold text-white">{projectName}</h2>
+					<p class="text-gray-300 text-sm mt-2">{projectDesc}</p>
+					<a href="/games/game1" class="inline-block mt-4 text-white p-2">Play</a>
+				</div>
 			</div>
-        </a>
 		{/each}
 	</div>
+
 </section>
