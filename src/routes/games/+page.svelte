@@ -19,7 +19,7 @@
 	<div class="grid grid-cols-1 md:grid-cols-3 gap-6 p-6 ">
 		{#each projects as {projectName, projectImage, projectDesc, updateDate, fontClass} }
 		<!-- Card -->
-			<div class="bg-black rounded-2xl border-1 border-white overflow-hidden hover:scale-103 transition-transform">
+			<div class="bg-black rounded-2xl border border-white overflow-hidden hover:scale-103 transition-transform">
 				 <img src={projectImage} alt={projectName} class="w-full h-96 object-cover">
 				<div class="p-4 {fontClass}">
 					<!-- Card Details -->
@@ -31,4 +31,4 @@
 		{/each}
 	</div>
 
-</section>
+</section>z
